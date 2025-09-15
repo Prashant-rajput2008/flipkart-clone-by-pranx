@@ -1,0 +1,87 @@
+/* File: css/signup.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url("https://wallpapers.com/images/hd/cool-photos-background-1920-x-1200-6mdrogrwtemt2rhx.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #333;
+}
+
+form {
+    background-color: white;
+    background-image: url("https://burst.shopifycdn.com/photos/fog-on-dark-waters-edge.jpg?width=1000&format=pjpg&exif=0&iptc=0");
+    background-size: cover;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 320px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+    font-size: 1em;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    background-color: #fff;
+    color: #0072ff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #e6e6e6;
+}
+
+a {
+    display: block;
+    margin: 10px 10px 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
